@@ -30,7 +30,6 @@ def download_playlist(url, file_destination, type=0):
     '''input playlist url and destination, downloads playlist
         download_playlist(url, file_destination, type 0=video 1=audio)
     '''
-
     try:
         playlist = Playlist(url)
         play_list_duration = playlist.length
