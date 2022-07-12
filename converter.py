@@ -63,5 +63,3 @@ if __name__ == "__main__":
         download_video(video_url, input_destination,int(requested_type))
     elif (start == "2"):
         download_playlist(video_url, input_destination, int(requested_type))
-    
-    
