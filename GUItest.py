@@ -6,7 +6,7 @@ class ConverterWindow(tk.Tk):
 
         self.title('Converter')
         window_width = 300
-        window_height = 200
+        window_height = 300
         
         #center screen
         screen_width = self.winfo_screenwidth()
