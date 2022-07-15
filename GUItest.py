@@ -1,8 +1,5 @@
-from cProfile import label
 import tkinter as tk
-from tkinter import HORIZONTAL, ttk, filedialog
-from tkinter import messagebox
-from turtle import left
+from tkinter import ttk, messagebox, filedialog
 import converter
 
 class ConverterWindow(tk.Tk):
