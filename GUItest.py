@@ -62,11 +62,11 @@ class ConverterWindow(tk.Tk):
         print(self.folder_path)
 
     def AudioOption(self):
-        self.AVoption = 0
+        self.AVoption = 1
         print("Audio",self.AVoption)
 
     def VideoOption(self):
-        self.AVoption = 1
+        self.AVoption = 0
         print("Video",self.AVoption)
     
     def change_trace(self):

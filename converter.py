@@ -5,7 +5,7 @@ import os, sys, datetime, concurrent.futures
 def length(duration):
     return str(datetime.timedelta(seconds=duration))
 
-def download_video(url, file_destination, type=0):
+def download_video(url, file_destination, type):
     '''input url and destination, downloads video
     download_video(url, file_destination, type 0=video 1=audio)
     '''
@@ -27,7 +27,7 @@ def menu():
     print("2. Playlist Download")
     return input("Enter number: ")
 
-def download_playlist(url, file_destination, type=0):
+def download_playlist(url, file_destination, type):
     '''input playlist url and destination, downloads playlist
         download_playlist(url, file_destination, type 0=video 1=audio)
     '''
