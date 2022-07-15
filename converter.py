@@ -12,7 +12,8 @@ def download_video(url, file_destination, type=0):
     try:
         yt = YouTube(url)
     except:
-        sys.exit("ERROR: Link did not work")
+        print("ERROR: Link did not work")
+        return -1
     print("\nVideo found:",yt.title,"Length:", length(yt.length),"Views:",yt.views)
     if (type == 0):
         stream = yt.streams.get_highest_resolution()
@@ -34,7 +35,8 @@ def download_playlist(url, file_destination, type=0):
         playlist = Playlist(url)
         play_list_duration = playlist.length
     except:
-        sys.exit("ERROR: Link did not work")
+        print("ERROR: playlist url did not work")
+        return -1
     print("\nPlaylist found:",playlist.title, play_list_duration,"videos")
     list_of_URL = playlist.video_urls
     if (play_list_duration < 5):
