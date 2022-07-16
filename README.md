@@ -7,7 +7,7 @@ Youtube video/playlist to mp4 converter
 - Uses pytube for Youtube conversion, and tkinter for GUI
 
 ## How to run:
-- Install GUItest.exe
+- Install [GUItest.exe](https://github.com/Tommygithubaccount123/YTconverter/raw/main/GUItest.exe)
 - Run program
 - Enter URL of video/playlist
 - Select video/audio option
